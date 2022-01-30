@@ -2,9 +2,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+
     const navigate = useNavigate();
     return (
-        <div className="header">
+        <div className="header" onClick={() => navigate('/')}>
             <div className="header-symbol">
                 <img src={require('../Images/Kullanılacak assetler/instagramLogo.png')} alt="logo" />
             </div>

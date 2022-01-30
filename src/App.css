@@ -9,11 +9,21 @@
 
 body {
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
 
+:root {
+  --headerBackground: rgb(200, 219, 25);
+  --inputBackground: rgb(241, 241, 241);
+  --inputBorder: rgb(245, 245, 245);  
+  --gray :#acaaaa;
+  --inputFocused :rgb(189, 188, 188);
+  --white :white;
+  --primary :#0275d8;
+  --black :#000;
 }
 
 .App {
-  background-color: lightblue;
   min-height: 100vh;
   font-family: Roboto, sans-serif;
 }
@@ -24,7 +34,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 10vh;
-  background-color: white;
+  background-color: var(--headerBackground);
   position: sticky;
 }
 
@@ -50,15 +60,14 @@ input[type=text] {
   background-image: url('//www.kirupa.com/images/search.png');
   background-position: -10px -2px;
   background-repeat: no-repeat;
-  background-color: rgb(241, 241, 241);
+  background-color: var(--inputBackground);
   padding-left: 30px;
-  border: 1px solid rgb(245, 245, 245);
-  
+  border: 1px solid var(--inputBorder);
   }
 
   input[type=text]:focus {
-    border-color: #acaaaa;
-    border: 1px solid rgb(189, 188, 188);
+    border-color: var(--gray);
+    border: 1px solid  var(--inputFocused);
     }
 
 
@@ -70,7 +79,7 @@ input[type=text] {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: var(--white);
   gap: 20px;
 }
 
@@ -91,14 +100,14 @@ input[type=text] {
   margin-right: auto;
   gap: 10vw;
   margin-top: 10vh;
-
+  background-color: aqua;
 }
 
 .intro-logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: .4px solid gray;
+  border: .4px solid var(--gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,13 +131,13 @@ input[type=text] {
 .intro-text button {
   border-radius: 10px;
   outline: none;
-  background-color: #0275d8;
+  background-color: var(--primary);
   width: 100%;
   height: 70%;
   text-align: center;
   outline: none;
   border: none;
-  color: white;
+  color: var(--white);
 }
 
 .intro-text button:hover {
@@ -142,3 +151,57 @@ input[type=text] {
   transform: translate(0, -70%);
   background-color: inherit;
 }
+
+
+/*-----------POSTS--------------*/
+
+.selected {
+  color: var(--black) !important;
+}
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-top: 5vh;
+  background-color: chartreuse;
+  color: var(--gray);
+}
+
+.posts div:hover {
+  cursor: pointer;
+  color: var(--black);
+  filter: brightness(1.1);
+}
+
+
+.posts div {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  width: 25%;
+  height: 3vh;
+  background-color: var(--white);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+  color: var(--gray);
+}
+
+.posts div img {
+  height: 20px;
+  width: 20px;
+  color: var(--gray);
+  filter:invert(20%);
+}
+
+
+
+
+
