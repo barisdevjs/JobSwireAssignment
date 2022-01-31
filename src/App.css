@@ -428,7 +428,6 @@ span {
 }
 
 span {
-  display: none;
   font-size: 35px;
   color: var(--black) !important;
   font-family: sans-serif;
@@ -442,7 +441,6 @@ span {
   height: 50px;
   vertical-align: middle;
   cursor: pointer;
-  /*text-decoration: none;*/
 }
 
 .child:hover > span {
@@ -491,6 +489,3 @@ span {
   height: 100%;
 }
 
-.index {
-  z-index: 20;
-}
