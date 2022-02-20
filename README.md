@@ -3,7 +3,7 @@
 
 ## DEMO
 
-[Go to Site](https://weatherapp111.netlify.app/ "Weather App")
+ [Go to Site](https://mystifying-gates-61bd22.netlify.app/)
 
 # This is a small demo video for the app
 
@@ -17,5 +17,5 @@ https://user-images.githubusercontent.com/84816619/154837699-1e8365bc-43b2-4606-
 
 ---
 
-### This app logic is build by the help of `react-hooks && chart.js`
+### This app logic is build by the help of `react-hooks && Zoom.js`
  
