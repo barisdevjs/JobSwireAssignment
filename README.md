@@ -11,9 +11,9 @@ https://user-images.githubusercontent.com/84816619/154837699-1e8365bc-43b2-4606-
 
 ## Below you will see the pages of an app
 
-![alt text](https://github.com/barisdevjs/weather-app/blob/main/src/screenshot1.jpg)
+![alt text](https://github.com/barisdevjs/instagram-page-design/blob/main/screenshot1.jpg)
 
-![alt text](https://github.com/barisdevjs/weather-app/blob/main/src/screenshot2.jpg)
+![alt text](https://github.com/barisdevjs/instagram-page-design/blob/main/screenshot2.jpg)
 
 ---
 
