@@ -26,8 +26,7 @@ https://user-images.githubusercontent.com/84816619/154837699-1e8365bc-43b2-4606-
 
 - You can search city or country depending on your language
 - You will see every component immediately updated when you hit the enter key
-- The Chart will automatically displayed based on the search key
-- You will see the following days forecast at the bottom of the page
+
 ---
 
 ### This app logic is build by the help of `react-hooks && chart.js`
